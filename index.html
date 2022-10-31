@@ -410,19 +410,23 @@ referrerpolicy="no-referrer" />
         </form>
 
       </div>
-
-    
-   
+      
     </footer>
  <div class="backdrop is-hidden" data-modal>
   <div class="modal">
     <form class="modal-form">
+
+      <button class="button-close"  type="button" data-modal-close >
+        <svg class="icon-close" width="11" height="11">
+          <use href="./imagens/icon.svg#icon-close" ></use>
+        </svg> </button>
+
       <h2 class="modal-form-title">Залиште свої дані, ми вам передзвонимо</h2>
       <div>
         <div class="modal-list">
           <label for="name"  class="modal-label"> Ім'я </label>
           <div class="input-wrap">
-            <input type="text " name="name" id="name" class="modal-input">
+            <input type="text" name="name" id="name" class="modal-input">
           <svg  class="icon-modal" width="18" height="18">
             <use href="./imagens/icon.svg#icon-person"></use>
           </svg>
@@ -474,19 +478,8 @@ referrerpolicy="no-referrer" />
         <button type="submit" class="btn-send">Відправити</button>
     </div>
     </form>
-   
-    <button tupe="button" class="button-close" data-modal-close >
-      <svg class="icon-close" width="11" height="11">
-        <use href="./imagens/icon.svg#icon-close" ></use>
-      </svg> </button>
-  
-    
-    </div>
-      
-   
-    
-   
-      
+
+    </div>   
   </div>
 
  <script src="./js/modal.js"></script>
